@@ -41,4 +41,21 @@
 
 //https协议推送的时候 会有问题
 //正常会弹出账户和密码（只有一次机会）
-//如果错了需要去
+//如果错了需要去控制面板/用户账户/
+
+
+//查看本地工程关联的远程仓库是哪个：git remote -v
+
+// git remote add origin https://github.com/nacarati/project-1.git(用来关联本地仓库和远程仓库的)
+//remote:表示远程的意思
+//add: 添加
+//远程仓库地址：https://github.com/nacarati/project-1.git
+
+//git branch -M main （把默认的 master 分支名称改成了 main）
+//git push -u origin main 表示第一次本地仓库向远程仓库提交的时候，必须这样写
+//push：表示推送的意思
+//-u 表示第一次推送的时候，必须添加的参数
+//origin：表示要把工程往哪推，这个名字代表的地址就是要推送的地址
+//main：表示上面那个地址所有的某一个点（房间，分支）
+
+//后面，修改 玩代码之后，再次提交的时候：只需要 git pushjike
