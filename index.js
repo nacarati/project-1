@@ -28,3 +28,8 @@
 // git reset HEAD 加上你要取消文件 取消单个
 
 //跳过暂存区，就是git add 和 git commit 两个命令的复合写法 git commit -a -m 加上描述信息
+
+//移除文件 ：git rm -f 加上你要移除的文件（rm ：remove  force强制）
+//只移除仓库里面的文件，保留本地的文件 ：git rm --cachde 加文件名
+
+//忽略文件：.gitignore
