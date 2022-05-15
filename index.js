@@ -26,3 +26,5 @@
 
 //取消暂存文件：git reset HEAD . 全部取消
 // git reset HEAD 加上你要取消文件 取消单个
+
+//跳过暂存区，就是git add 和 git commit 两个命令的复合写法 git commit -a -m 加上描述信息
